@@ -19,9 +19,7 @@ const XAyz =()=>{
     return(<main>
       <ProviderComponent>
     <BackgroundStar/>
-
     <HoverContent/>
-
         <RouterComponent>
               <Route path='/' element={<RouteLayout element={<HomePage/>}/>} />
               <Route path='/privacy' element={<RouteLayout element={<Privacy/>}/>}></Route>
