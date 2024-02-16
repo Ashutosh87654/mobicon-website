@@ -31,7 +31,6 @@ const XAyz =()=>{
               <Route path='/Book_A_Stand' element={<RouteLayout element={<BookAStand/>}/>}></Route>
               <Route path='/Become_A_Partner' element={<RouteLayout element={<BecomeAPartner/>}/>}></Route>
               <Route path='*' element={<RouteLayout element={<HomePage/>}/>} />
-
           </RouterComponent>
       </ProviderComponent>
     </main>
