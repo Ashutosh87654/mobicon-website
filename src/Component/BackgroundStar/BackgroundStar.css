@@ -1,0 +1,14 @@
+#background{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -100000;
+    background-color: black;
+    /* background-image: (circle at bottom right, rgba(17,19,227,1) 0% , black 50%, black 100%) */
+    background-blend-mode: darken;
+}
+#background img{
+    filter:brightness(40%) ;
+}

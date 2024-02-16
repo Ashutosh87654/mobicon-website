@@ -1,0 +1,103 @@
+.cosplay_page_container{
+    color: rgb(255, 255, 255);
+    /* color: rgb(156, 135, 14); */
+}
+.cosplay_heading{
+    padding: 50px;
+    background-image: url('../../assets/cosplay_wide_photo.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+    min-height: 45vh;
+    margin-bottom: 30px;
+}
+.cosplay_content_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cosplay_content{
+    width: fit-content;
+    
+}
+.cosplay_page_container article{
+    max-width: 1300px;
+    margin-bottom: 50px;
+}
+.cosplay_content h2,h3{
+    text-transform: uppercase;
+    color: goldenrod;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+    
+    letter-spacing: 0.1vh;
+}
+.cosplay_content p{
+     font-size: max( 1.6vw,12px);
+     font-style: italic;
+     color: rgb(240, 230, 216);
+}
+.cosplay_content .temp_image{
+    width: max(15vw,250px);
+    height: max(20vw ,333px) ;
+    background-color: rgba(92, 92, 92, 0.524);
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.cosplay_content .imageContainer{
+    display: flex;
+    justify-content: space-around;
+    row-gap: 2vw;
+    column-gap: 1vw;
+    margin-bottom: 30px;
+}
+.cosplay_content .imageContainer{
+    text-shadow: 2px 2px 5px rgb(153, 3, 153),4px 2px 2px rgb(0, 0, 0) ;
+    text-transform: uppercase;
+    font-size: 2vh;
+    /* font-style: italic; */
+    
+}
+.cosplay_content .temp_image1{
+    background-image: url('../../assets/cosplay-section/cosplay_judges_nikoo.jpeg');
+}
+.cosplay_content .temp_image2{
+    background-image: url('../../assets/cosplay-section/cosplay_judges_jeenzo.jpg');
+}
+.cosplay_content .temp_image3{
+    background-image: url('../../assets/cosplay-section/cosplay_judges3.jpeg');
+}
+.cosplay_content .temp_image4{
+    background-image: url('../../assets/cosplay-section/cosplay_judges4.jpg');
+}
+.cosplay_content .temp_image5{
+    background-image: url('../../assets/cosplay-section/cosplay_guest_Kong\ Kyungmin.jpg');
+}
+.cosplay_content .temp_image6{
+    background-image: url('../../assets/cosplay-section/consplay_guest_tomia.jpg');
+}
+.cosplay_content .temp_image7{
+    background-image: url('../../assets/cosplay-section/cosplay_guest_satellia.jpg');
+}
+/* .temp_image8{
+    background-image: url('../../assets/cosplay-section/alodia.png');
+}
+.temp_image9{
+    background-image: url('../../assets/cosplay-section/bianca.jpeg');
+}
+.temp_image10{
+    background-image: url('../../assets/cosplay-section/tomia_2.jpg');
+} */
+
+

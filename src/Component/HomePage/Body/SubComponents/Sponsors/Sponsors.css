@@ -1,0 +1,25 @@
+.conclave_highlights_number{
+    color:#69D7F6;
+    font-weight: bold;
+    font-size: max(3vw , 30px);
+}
+.conclave_highlights div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.conclave_highlights_text{
+    color: white;
+    font-size: max(1vw,18px);
+}
+.conclave_container{
+    backdrop-filter: blur(10px);
+    padding: 10px 5px;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.sponsors_heading{
+    font-family:"Absolut Headline";
+    font-size: 5vw;
+    color: gold;
+}

@@ -1,0 +1,79 @@
+.footer2 .text-small {
+    font-size: 0.9rem;
+  }
+  
+  .footer2 a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  .footer2 a:hover, a:focus {
+    text-decoration: none;
+  }
+  
+  .footer2 .form-control {
+    /* background: #2125291b; */
+    /* border-color: #545454; */
+  }
+  
+  .footer2 .form-control:focus {
+    /* background: #21252923; */
+  }
+  
+ footer {
+    background: #2125295f;
+  }
+  li[hover="0.2"]:hover{
+    scale: 1.1;
+  }
+  img[instagram=""]:hover{
+    box-shadow: 3px 3px 10px  #94C84B  ,
+    3px -3px 10px  #94C84B  ,
+    -3px -3px 10px  #94C84B  ,
+    -3px 3px 10px  #94C84B  ;
+    background-color: #94C84B  ;
+    border-radius: 50%;
+    transition: all 0.75s ease-in-out;
+    scale:1.3;
+  }
+  img[twitter=""]:hover{
+    box-shadow: 3px 3px 10px  #94C84B  ,
+     3px -3px 10px  #94C84B  ,
+     -3px -3px 10px  #94C84B  ,
+     -3px 3px 10px  #94C84B  ;
+     background-color: #94C84B  ;
+     border-radius: 50%;
+     transition: all 0.75s ease-in-out;
+     scale:1.3;
+  }
+  img[facebook=""]:hover{
+    box-shadow: 3px 3px 10px  #94C84B  ,
+     3px -3px 10px  #94C84B  ,
+     -3px -3px 10px  #94C84B  ,
+     -3px 3px 10px  #94C84B  ;
+     background-color: #94C84B  ;
+     border-radius: 50%;
+     transition: all 0.75s ease-in-out;
+     scale:1.3;
+  }
+  img[tiktok=""]:hover{
+    box-shadow: 3px 3px 10px  #94C84B  ,
+     3px -3px 10px  #94C84B  ,
+     -3px -3px 10px  #94C84B  ,
+     -3px 3px 10px  #94C84B  ;
+     background-color: #94C84B  ;
+     border-radius: 50%;
+     transition: all 0.75s ease-in-out;
+     scale:1.3;
+  }
+  img[youtube=""]:hover{
+    box-shadow: 3px 3px 10px  #94C84B  ,
+     3px -3px 10px  #94C84B  ,
+     -3px -3px 10px  #94C84B  ,
+     -3px 3px 10px  #94C84B  ;
+     background-color: #94C84B  ;
+     border-radius: 50%;
+     transition: all 0.75s ease-in-out;
+     scale:1.3;
+  }

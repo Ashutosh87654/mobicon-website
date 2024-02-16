@@ -1,0 +1,47 @@
+.bookastand_container h1 {
+    margin-bottom: 40px;
+}
+
+.bookastand_container label {
+    color: #333;
+}
+
+.bgTest{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.color-red{
+    color: red;
+}
+.color-white{
+    color: white !important;
+}
+.color-warning{
+    color: rgb(252, 226, 29) !important;
+}
+.form-button-1{
+    color: black;
+    background-color: goldenrod;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+.form-button-1:hover{
+    border: 1px solid white;
+    background-color: transparent;
+    color: goldenrod;
+}
+.bookastand_container{
+    margin: 30px auto;
+}
+.bookastand_container input,select{
+    background-color: rgba(0, 0, 0, 0.192);
+    border: 1px solid white;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+}
+.bookastand_container option{
+    color: black;
+}

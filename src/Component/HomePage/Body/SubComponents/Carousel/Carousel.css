@@ -1,0 +1,74 @@
+#Carousel{
+    width: 60vw;
+    height: max-content;
+    /* background-color: #8a2be2; */
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#Carousel *{
+    user-select: none;
+}
+.carousel_heading{
+   
+}
+.image_slider_container{
+    overflow: hidden;
+    position: relative;
+    border-radius: 25px;
+    width: 100%;
+}
+.image_slider{
+    width: 100%;
+    position: relative;
+    height: 33.75vw;
+    display: flex;
+    transition: all 1s ease-in-out;
+}
+.image_slider img{
+    width: 100%;
+    object-fit: cover;
+}
+#Carousel_left_Arrow{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transition: all 0.5s ease-in-out;
+    visibility: hidden;
+}
+#Carousel_Right_Arrow{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transition: all 0.5s ease-in-out;
+    visibility: hidden;
+}
+.image_slider:hover .Arrow{
+    border-radius: 50%;
+    visibility: visible;
+    /* background-color: rgba(250, 235, 215, 0.43); */
+}
+.carousel_heading{
+    color: #6f42c1;
+    color: transparent;
+    text-shadow: 2px 2px 2px rgb(255, 22, 22), -2px -2px 2px white, 2px -2px 2px white, -2px 2px 2px white;
+    /* text-shadow:0px 2px 1px #18001a, 2px 3px 1px #9900E0; */
+    font-size: 60px;
+    font-family: 'Quantico', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    transition: all 3s ease-in-out;
+    font-style: italic;
+}
+
+@media screen and (max-width : 750px) {
+    .carousel_heading{
+        /* color: #6f42c1; */
+        /* text-shadow:0px 2px 1px #18001a, 2px 3px 1px #9900E0; */
+        font-size: 150%;
+        font-family: 'Quantico', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        transition: all 3s ease-in-out;
+        font-style: italic;
+    }
+}

@@ -1,0 +1,28 @@
+.team_card{
+    position: relative;
+}
+
+.team_card_hover_div{
+    position: absolute;
+    background-color: aqua;
+    z-index: 2;
+    transition: all 1s ease-in-out;
+    /* visibility: hidden; */
+    width: 90% !important;
+
+}
+.team_card_image_div{
+    position: relative;
+    z-index: 3;
+    transition: all 1s ease-in-out;
+    /* display: none; */
+}
+.team_card:hover .team_card_hover_div{
+    transform: translateX(100px);
+    visibility: visible;
+    width: 100%;
+}
+
+@keyframes swapping {
+    
+}

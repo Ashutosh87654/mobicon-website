@@ -1,0 +1,157 @@
+.esports_page_container{
+    color: rgb(255, 255, 255);
+    /* color: rgb(156, 135, 14); */
+}
+.esports_heading{
+    padding: 50px;
+    background-image: url('../../assets/esports.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+    min-height: 45vh;
+    margin-bottom: 30px;
+}
+.esports_content_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.esports_content{
+    width: fit-content;
+    
+}
+.esports_page_container article{
+    max-width: 1300px;
+    margin-bottom: 50px;
+}
+:is(.streamer_section,.esports_content,.community_cup) :is(h2,h3){
+    text-transform: uppercase;
+    color: goldenrod;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+    
+    letter-spacing: 0.1vh;
+}
+.community_cup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .esports_content h2,h3{
+    text-transform: uppercase;
+    color: goldenrod;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+    
+    letter-spacing: 0.1vh;
+} */
+.esports_content h1{
+    font-family:'Absolut', Times, serif ;
+    /* background: rgb(2,0,36); */
+    color:goldenrod;
+    font-weight: 700;
+}
+.esports_content,.community_cup p{
+     font-size: max( 1.6vw,12px);
+     font-style: italic;
+     color: rgb(240, 230, 216);
+     text-transform: none;
+}
+.esports_content .imageContainer .card-style1
+{
+    text-align: justify;
+    color: rgb(240, 230, 216);
+
+}
+
+.esports_content .temp_image{
+    /* width: max(15vw,250px); */
+    width: 100%;
+    /* height: max(20vw ,333px) ; */
+    background-color: rgba(92, 92, 92, 0.524);
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.esports_content .imageContainer{
+    display: flex;
+    justify-content: space-around;
+    row-gap: 2vw;
+    column-gap: 1vw;
+    margin-bottom: 30px;
+}
+.esports_content .imageContainer{
+    color: rgb(78, 6, 248);
+    
+    font-size: 2vh;
+    /* font-style: italic; */
+    
+}
+.esports_content .temp_image1{
+    background-image: url('../../assets/cosplay-section/cosplay_judges_nikoo.jpeg');
+}
+.esports_content .temp_image2{
+    background-image: url('../../assets/cosplay-section/cosplay_judges_jeenzo.jpg');
+}
+.esports_content .temp_image3{
+    background-image: url('../../assets/cosplay-section/cosplay_judges3.jpeg');
+}
+.esports_content .temp_image4{
+    background-image: url('../../assets/cosplay-section/cosplay_judges4.jpg');
+}
+.esports_content .temp_image5{
+    background-image: url('../../assets/cosplay-section/cosplay_guest_Kong\ Kyungmin.jpg');
+}
+.esports_content .temp_image6{
+    background-image: url('../../assets/cosplay-section/consplay_guest_tomia.jpg');
+}
+.esports_content .temp_image7{
+    background-image: url('../../assets/cosplay-section/cosplay_guest_satellia.jpg');
+
+}
+/* .temp_image8{
+    background-image: url('../../assets/esports-section/alodia.png');
+}
+.temp_image9{
+    background-image: url('../../assets/esports-section/bianca.jpeg');
+}
+.temp_image10{
+    background-image: url('../../assets/esports-section/tomia_2.jpg');
+} */
+
+.streamer_section{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-bottom: 4vh;
+}
+.streamer_section_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh;
+}
+.streamer_section_card > h2{
+    margin-bottom: auto;
+}
+.streamer_section_card > a{
+    margin-top: auto;
+}
+.streamer_section > .image_container{
+    width: 100%;
+    padding-top: 56.25%;
+    background-color: aliceblue;
+}

@@ -1,0 +1,143 @@
+.about_us_container{
+    /* background-color: aqua; */
+}
+.esports{
+    /* background-color: beige; */
+    min-height: 100vh;
+    position: relative;
+    /* margin-top: 20vh; */
+}
+.esports_image{
+    width: 15vw;
+    height: 35vh;
+    position: absolute;
+    top:100%;
+    left: 0%;
+    z-index: 2;
+}
+.esports_image img{
+    /* position: absolute; */
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.esports_text{
+    width: 45vw;
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 14%;
+    overflow: hidden;
+    opacity: 0;
+    /* text-align: justify; */
+}
+.esports_text p{
+    font-family: 'Absolut Headline';
+    font-size: 3vw;
+
+}
+.esports_text h1{
+    font-family: 'Absolut Headline';
+    color: gold;
+    -webkit-text-stroke-width: 1px;
+    font-size: 5vw;
+    /* -webkit-text-stroke-color: white; */
+}
+@media screen and (max-width:816px) {
+    .esports_text{
+        /* width: 90vw; */
+        left: 5vw;
+    }
+}
+.about_us_container a{
+    text-decoration: none;
+    width: max-content;
+}
+
+.about_us_container a p{
+width: max-content;
+font-size: 1.5vw;
+word-spacing: 7px;
+}
+
+
+.music_concert_background{
+    z-index: -50;
+    filter: brightness(30%) blur(3px);
+    position: fixed;
+    top: 0;
+}
+.cosplay_background{
+    z-index: -40;
+    filter: brightness(30%) blur(3px);
+    position: fixed;
+    top: 0;
+}
+.crypto_background{
+    z-index: -30;
+    filter: brightness(30%) blur(3px);
+    position: fixed;
+    top: 0;
+}
+.esports_background{
+    z-index: -20;
+    filter: brightness(70%) blur(3px);
+    position: fixed;
+    top: 0;
+}
+.esports_img{
+    position: absolute;
+    left:52%;
+    top: 50%;
+    width: 45vw;
+    transform: translateY(-50%);
+    height: 30vw;
+}
+.crypto_img{
+    position: absolute;
+    left: 18%;
+    top: 50%;
+    width: 45%;
+    transform: translate(-30%,-50%);
+    border-radius: 20px;
+}
+
+.esports_img > img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.crypto_img > img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.music_concert_img > img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .esports,.crypto, .music_concert, .cosplay{
+        height: 0vh;
+    }
+    .crypto{
+
+    }
+}
+.about_us_description_know_more{
+    padding: 1vw 2vw;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    background-color: goldenrod;
+    color: black;
+    border: 1px solid black;
+    word-spacing: 1vw !important;
+  }
+  .about_us_description_know_more:hover{
+    border: 1px solid white;
+    color: rgba(255, 255, 255, 0.454);
+    background-color: rgba(0, 0, 0, 0.337);
+    
+  }

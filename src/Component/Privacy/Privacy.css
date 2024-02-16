@@ -1,0 +1,15 @@
+.privacy-container .row{
+    margin-bottom: 30px;
+}
+.container-fluid h1,h2{
+    font-family:'Absolut', Times, serif ;
+    /* background: rgb(2,0,36); */
+    color:goldenrod;
+    font-weight: 700;
+}
+.container-fluid p{
+    font-size: max( 1.2vw,12px);
+    font-style: italic;
+    color: rgb(240, 230, 216);
+    text-transform: none;
+}

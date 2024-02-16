@@ -1,0 +1,68 @@
+.Loading{
+       height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(5, 5, 5);
+        transition: all 1s ease-in-out;
+        position: fixed;
+        z-index: 1000;
+        transition: all 0.8s ease-in-out;
+      }
+   
+.Loading h2 
+{
+        position: relative;
+        text-transform: capitalize;
+        color: #03e9f4;
+        font-size: 50px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        transition: all 1s ease-in-out;
+}
+.Loading h2::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: #03e9f4;
+    animation: blinkCursor 0.8s  infinite;
+    /* z-index: 2; */
+}
+@keyframes blinkCursor {
+    0%,75%{
+        opacity: 1;
+    }
+    76%,100%{
+        opacity: 0;
+    }
+}
+.Loading h2::after {
+        content: attr(data-text);
+        position: absolute;
+        top: -10px;
+        left: 0;
+    /* Change the position of transformed element */
+        transform-origin: bottom;
+    /*  Rotates around x-axis */
+        transform: rotateX(180deg);
+    /* linear-gradient defined by up,down,left ,right ,diagonal */
+        background-image: linear-gradient(0deg, #063234b5,#166164b7,#03e8f47c,#03e8f417, transparent 95%);
+        -webkit-background-clip: text;
+        color: transparent;         
+        opacity: 0.7;
+      }
+
+
+@media screen and (max-width:600px) {
+    .Loading{
+        font-size: 5px;
+    }
+    .Loading h2::after {
+        top:0;
+    }
+}

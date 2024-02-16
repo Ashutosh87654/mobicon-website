@@ -1,0 +1,20 @@
+.BecomeAPartner_container h1 {
+    margin-bottom: 40px;
+}
+
+.form-button-1{
+    color: black;
+    background-color: goldenrod;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+.form-button-1:hover{
+    border: 1px solid white;
+    background-color: transparent;
+    color: goldenrod;
+}
+.BecomeAPartner_container{
+    margin: 30px auto;
+}

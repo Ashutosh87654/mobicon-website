@@ -1,0 +1,132 @@
+.slider {
+  width: 80%;
+  height: 40vw;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  border-radius: 25px;
+  max-height: min-content;
+
+}
+/* .slider *{
+  user-select: none;
+} */
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: all 1.5s ease;
+}
+
+@media screen and (min-width: 600px) {
+  .slide img {
+    width: 100%;
+    height: 100%;
+
+  }
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.current {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  
+}
+
+
+
+
+
+.arrow {
+  border: 2px solid white;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+}
+.arrow:hover {
+  background-color: #fff;
+  color: #777;
+}
+
+.next {
+  top: 35%;
+  right: 1.5rem;
+}
+.prev {
+  top: 35%;
+  left: 1.5rem;
+}
+
+hr {
+  height: 2px;
+  background: white;
+  width: 50%;
+}
+
+
+.carousel_heading{
+  color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+  background-color: transparent;
+  font-weight: bold;
+  font-family: 'Quantico', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  transition: all 3s ease-in-out;
+  font-style: italic;
+}
+span[visib="true"]{
+  display: inline-block;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: max-content;
+}
+span[visib="false"]{
+  display: inline-block;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%,-50%);
+}
+span[visib="true"],span[visib="false"]{
+  transition: 2s all ease-in-out;
+}
+span[mob="mobile"]{
+  display: none;
+}
+@media screen and (max-width : 750px) {
+  .carousel_heading{
+      font-size: 120%;
+      font-family: 'Quantico', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      transition: all 3s ease-in-out;
+      font-style: italic;
+  }
+}
+
+

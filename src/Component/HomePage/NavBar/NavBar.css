@@ -1,0 +1,160 @@
+#NavBar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    /* width: 50%; */
+    /* min-width: 500px; */
+    padding: 0;
+    /* margin: 0 auto; */
+    
+  }
+  /* media queries */
+  @media screen and (max-width: 768px) { 
+    .navbar-toggler  {font-size: 3vw;
+
+    }
+    }
+  
+  #NavBar a {
+    position: relative;
+    display: inline-block;
+    /* margin: 15px 25px; */
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-size: 1vw;
+    /* height: 1em; */
+    /* line-height: 2em; */
+  }
+  
+  #NavBar  a:hover, a:focus {
+
+
+    outline: none;
+  }
+  
+  section.effect-1 {
+    background-color: transparent;
+    transition: all 1s ease-in-out;
+    margin-left: 2vw;
+  }
+  section.effect-1 li.og-bg a {
+    overflow: hidden;
+  }
+  section.effect-1 li.og-bg a span {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    transition: 0.3s;
+    padding: 0px 10px;
+  }
+  section.effect-1 li.og-bg a span:before {
+    position: absolute;
+    top: 100%;
+    content: attr(data-hover);
+    font-weight: bold;
+  }
+  section.effect-1 li.og-bg a:hover span, section.effect-1 li.og-bg a:focus span {
+    transform: translateY(-100%);
+  }
+  section.effect-1 li.rv-bg a {
+    overflow: hidden;
+  }
+  section.effect-1 li.rv-bg a span {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    transition: 0.3s;
+    padding: 0px 10px;
+    font-size: 15px;
+  }
+  section.effect-1 li.rv-bg a span:before {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    color: #fff;
+    background-color: #9900FF;
+    /*   #6E0DD0  */
+    content: attr(data-hover);
+    font-weight: bold;
+  }
+  section.effect-1 li.rv-bg a:hover span, section.effect-1 li.rv-bg a:focus span {
+    transform: translateY(-100%);
+  }
+
+  .navButton:hover{
+    background-color: transparent !important;
+    border: 1px solid #9900FF !important;
+  }
+  .navButton{
+    margin-left:10px;
+      padding:10px;
+      border-radius:10px; 
+      background-color:#9900FF;
+       color:white;
+       border:1px solid transparent;
+       display: inline-block;
+    /* margin: 15px 25px; */
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+  }
+section[isActive="active"]{
+  border-bottom: 1px solid #9900FF;
+}
+
+#NavBar{
+  /* border-bottom: 1px solid white; */
+  min-height: 10vh;
+  padding-left: 6vh;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  z-index: 1000;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+} 
+#NavBar *{
+  transition: all 0.5s ease-in-out;
+
+}
+.artist_alley{
+  position: relative;
+  font-size: 1vw;
+  cursor: pointer;
+  z-index: 100;
+}
+.artist_alley_button{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: max-content;
+  /* font-size: 15px; */
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+/* .artist_alley:hover .artist_alley_button{
+  opacity: 1;
+  top:110%;
+}
+.artist_alley:hover .artist_alley_button1{
+  left: -110%;
+}
+.artist_alley:hover .artist_alley_button2{
+  left: 50%;
+}
+.artist_alley:focus .artist_alley_button{
+  opacity: 1;
+  top:110%;
+}
+.artist_alley:focus .artist_alley_button1{
+  left: -110%;
+}
+.artist_alley:focus .artist_alley_button2{
+  left: 50%;
+} */

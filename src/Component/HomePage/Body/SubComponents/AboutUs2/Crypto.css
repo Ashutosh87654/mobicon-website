@@ -1,0 +1,45 @@
+.crypto{
+    /* background-color: beige; */
+    min-height: 100vh;
+    position: relative;
+}
+.crypto_image{
+    width: 15vw;
+    height: 35vh;
+    position: absolute;
+    top:100%;
+    right: 0%;
+    z-index: 2;
+}
+.crypto_image img{
+    width: 100%;
+    transform: translate(30%,-50%);
+}
+.crypto_text{
+    width: 45vw;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    opacity: 0;
+    text-align: justify;
+}
+.crypto_text p{
+    font-family: 'Absolut Headline';
+    font-size: 3vw;
+}
+.crypto_text h1{
+    font-family: 'Absolut Headline';
+    color: gold;
+    -webkit-text-stroke-width: 1px;
+    font-size: 5vw;
+    /* -webkit-text-stroke-color: white; */
+}
+/* @media screen and (max-width:816px) {
+    .crypto_text{
+        width: 90vw;
+        left: 5vw;
+    }
+} */
