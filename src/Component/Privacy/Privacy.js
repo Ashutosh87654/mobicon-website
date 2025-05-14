@@ -5,7 +5,7 @@ const Privacy = () => {
   return (
     <div className="container-fluid privacy-container" style={{ maxWidth: "1200px",justifyContent:"center",textAlign:"justify",color:"white"}}>
       <div className="row">
-        <h1>bhupen...PRIVACY POLICY  2025</h1>
+        <h1>bhupen singhj...PRIVACY POLICY  2025</h1>
       </div>
       <div className="row">
         <h2>Who we are</h2>
