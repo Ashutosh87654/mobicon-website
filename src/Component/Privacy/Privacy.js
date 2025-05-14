@@ -8,7 +8,7 @@ const Privacy = () => {
         <h1>alpha 2025 final without net...PRIVACY POLICY  2025</h1>
       </div>
       <div className="row">
-        <h2>Who we are</h2>
+        <h2>Who we are 1212</h2>
 
         <p>
           <strong className=" ">Suggested text: </strong>Our website address is:
